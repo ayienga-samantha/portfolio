@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
     <title>Samantha Ayienga</title>
 </head>
 
@@ -48,337 +51,25 @@
 
 
         <div class="container my-4">
-
-
-            <!-- Grid row -->
-            <div class="row">
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/camera.jpg" alt="Camera">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/camera.jpg" data-toggle="modal" data-target="#modal1" alt="Camera"></a>
-                </div>
-                <!-- Grid column -->
-
-
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/flower.jpg" alt="Flower">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/flower.jpg" data-toggle="modal" data-target="#modal2" alt="Flower"></a>
-                </div>
-                <!-- Grid column -->
-
-
+        
+        
+        <!-- Flickity HTML init -->
+            <div class="gallery js-flickity"
+              data-flickity-options='{ "wrapAround": true }'>
+                <div class="gallery-cell"><img src="./images/camera.jpg" alt="Camera"></div>
+                <div class="gallery-cell"><img src="./images/cupcakes.jpg" alt="Cupcakes"></div>
+                <div class="gallery-cell"><img src="./images/nature-focus.JPG" alt="Focus on plant"></div>
+                <div class="gallery-cell"><img src="./images/serenity.JPG" alt="Lady"></div>
+                <div class="gallery-cell"><img src="./images/veg.jpg" alt="Chopped vegetables"></div>
+                <div class="gallery-cell"><img src="./images/sliced-cake.jpg" alt="Sliced Cake"></div>
+                <div class="gallery-cell"><img src="./images/sliced-cake-with-knife.jpg" alt="Cake"></div>
+                <div class="gallery-cell"><img src="./images/object.JPG" alt="Flower"></div>
+                <div class="gallery-cell resizeimg"><img src="./images/niagara-casino.jpg" alt="Casino"></div>
+                <div class="gallery-cell resizeimg2"><img src="./images/tulips.jpg" alt="Tulips"></div>
+                <div class="gallery-cell resizeimg3"><img src="./images/ottawapark.jpg" alt="Park"></div>
+                <div class="gallery-cell"><img src="./images/budding-flower.jpg" alt="Budding Flower"></div>
+                
             </div>
-
-
-            <!-- Grid row -->
-            <div class="row">
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/cupcakes.jpg" alt="Cupcakes">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/cupcakes.jpg" data-toggle="modal" data-target="#modal3" alt="Cupcakes"></a>
-                </div>
-                <!-- Grid column -->
-
-
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/lake.jpg" alt="Lake">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/lake.jpg" data-toggle="modal" data-target="#modal4" alt="Lake"></a>
-                </div>
-                <!-- Grid column -->
-
-
-            </div>
-
-            <!-- Grid row -->
-            <div class="row">
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/nature-focus.JPG" alt="Focus on plant">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/nature-focus.JPG" data-toggle="modal" data-target="#modal5" alt="Focus on plant"></a>
-                </div>
-                <!-- Grid column -->
-
-
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/icecream-with-water-on-glass.jpg" alt="Ice-cream in glass">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/icecream-with-water-on-glass.jpg" data-toggle="modal" data-target="#modal6" alt="Ice-cream in glass"></a>
-                </div>
-                <!-- Grid column -->
-
-
-            </div>
-
-            <!-- Grid row -->
-            <div class="row">
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/serenity.JPG" alt="Lady">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/serenity.JPG" data-toggle="modal" data-target="#modal7" alt="Lady"></a>
-                </div>
-                <!-- Grid column -->
-
-
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/sliced-cake-with-knife.jpg" alt="Sliced cake with knife on plate">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/sliced-cake-with-knife.jpg" data-toggle="modal" data-target="#modal8" alt="Sliced cake with knife on plate"></a>
-                </div>
-                <!-- Grid column -->
-
-
-            </div>
-
-            <!-- Grid row -->
-            <div class="row">
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/veg.jpg" alt="Chopped vegetables">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/veg.jpg" data-toggle="modal" data-target="#modal9" alt="Chopped vegetables"></a>
-                </div>
-                <!-- Grid column -->
-
-
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/budding-flower.jpg" alt="Budding flower with ladybug">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/budding-flower.jpg" data-toggle="modal" data-target="#modal10" alt="Budding flower with ladybug"></a>
-                </div>
-                <!-- Grid column -->
-
-
-            </div>
-
-
-            <!-- Grid row -->
-            <div class="row">
-
-
-                <!-- Grid column -->
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <!--Modal: Name-->
-                    <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <!--Content-->
-                            <div class="modal-content">
-                                <!--Body-->
-                                <div class="modal-body mb-0 p-0">
-                                    <div>
-                                        <img src="./images/naturefocus.jpg" alt="Flower covered in snow">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Content-->
-                        </div>
-                    </div>
-                    <!--Modal: Name-->
-                    <a><img class="img-fluid " src="./images/naturefocus.jpg" data-toggle="modal" data-target="#modal12" alt="Flower covered in snow"></a>
-                </div>
-                <!-- Grid column -->
-
-                <div class="col-lg-6 col-md-12 mb-4">
-                    <div class="row">
-                        <!-- Grid column -->
-                        <div class="col-12 mb-4">
-                            <!--Modal: Name-->
-                            <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg" role="document">
-                                    <!--Content-->
-                                    <div class="modal-content">
-                                        <!--Body-->
-                                        <div class="modal-body mb-0 p-0">
-                                            <div>
-                                                <img src="./images/chocolates.JPG" alt="Chocolates">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--/.Content-->
-                                </div>
-                            </div>
-                            <!--Modal: Name-->
-                            <a><img class="img-fluid " src="./images/chocolates.JPG" data-toggle="modal" data-target="#modal11" alt="Chocolates"></a>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-12 mb-4">
-                            <!--Modal: Name-->
-                            <div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg" role="document">
-                                    <!--Content-->
-                                    <div class="modal-content">
-                                        <!--Body-->
-                                        <div class="modal-body mb-0 p-0">
-                                            <div>
-                                                <img src="./images/snacks.jpg" alt="Snack bars covered in chocolate">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--/.Content-->
-                                </div>
-                            </div>
-                            <!--Modal: Name-->
-                            <a><img class="img-fluid " src="./images/snacks.jpg" data-toggle="modal" data-target="#modal13" alt="Snack bars covered in chocolate"></a>
-                        </div>
-                        <!-- Grid column -->
-                    </div>
-                </div>
-
-            </div>
-
-
 
 
 
@@ -406,4 +97,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-</body></html>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
